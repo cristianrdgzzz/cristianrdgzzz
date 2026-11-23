@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Cristian Rodríguez · Cloud Security Engineer aiming at Security Architecture" width="100%">
+  <img src="assets/banner.svg" alt="Cristian Rodríguez · Security and Cloud Engineer aiming at Security Architecture" width="100%">
 </p>
 
-I design and build cloud infrastructure that is secure by default. I'm early in my career, and I learn in the open: every project here comes from my home lab, with the reasoning behind each decision written down.
+I design, build and automate infrastructure that is secure by default, with cloud as my main stage and security across the whole stack. I'm early in my career, and I learn in the open: every project here comes from my home lab, with the reasoning behind each decision written down.
 
 **Based in Barcelona · Computer Engineering (UOC), final year · Cloud engineering intern**
 
@@ -13,6 +13,8 @@ I design and build cloud infrastructure that is secure by default. I'm early in 
 | Area | What it means in practice |
 |---|---|
 | **Cloud security** | Identity with Microsoft Entra ID, governance and posture management, Zero Trust |
+| **Security, end to end** | Systems, networks, identity, vulnerability management, detection and response, GRC |
+| **Automation** | Turning repetitive work into scripts, pipelines and workflows (Python, GitHub Actions, n8n), with tests |
 | **Infrastructure as Code** | Terraform, reproducible environments, secure pipelines |
 | **Offensive security** | Attacking my own environments to learn what actually needs defending |
 | **Architecture** | Diagrams, decision records (ADRs), cost and risk trade-offs |
@@ -25,6 +27,8 @@ I design and build cloud infrastructure that is secure by default. I'm early in 
 | **Azure landing zone with Terraform** | Hub-spoke network, Azure Policy, RBAC and logging as code | Planned |
 | **Secure CI/CD pipeline** | GitHub Actions with OIDC, IaC scanning and secret detection | Planned |
 | **Hardened AKS cluster** | Kubernetes RBAC, network policies and image scanning | Planned |
+| **Detection lab** | Windows and Linux logs into a SIEM, detection rules and simulated attacks | Planned |
+| **Automation toolkit** | Scripts and workflows that remove manual security and ops tasks, with automated tests | Planned |
 
 ## How I work
 
@@ -41,6 +45,8 @@ I design and build cloud infrastructure that is secure by default. I'm early in 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
 <details>
 <summary><b>Currently learning</b> (click to expand)</summary>
@@ -50,7 +56,8 @@ I design and build cloud infrastructure that is secure by default. I'm early in 
 - Linux and networking fundamentals
 - Azure architecture and the Well-Architected Framework
 - Terraform at scale, CI/CD and automated testing
-- Microsoft Sentinel and KQL
+- Detection and response (Microsoft Sentinel, KQL)
+- Process automation with Python, GitHub Actions and n8n
 - AWS (after Azure)
 - Communication and pre-sales skills
 
